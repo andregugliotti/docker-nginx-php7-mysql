@@ -18,7 +18,7 @@ Just open your terminal and navigate to docker-php56 of this project. Type:
 
 `docker-compose up -d`
 
-Docker will build the containers and start them. You must also map the address _127.0.0.1 project.docker.dev_ on your hosts file. If you don't know how to do that, just google it. It's easy!
+Docker will build the containers and start them. You must also map the address _127.0.0.1 project.docker.local_ on your hosts file. If you don't know how to do that, just google it. It's easy!
 
 ### Adding a database
 
@@ -27,7 +27,7 @@ If you have some problems starting the MySQL container, try to empty this folder
 
 ### Changing project / htdocs files
 
-To see your site live, just open a browser and visit project.docker.dev. That's exactly what you find at folder htdocs and it's automatically updated when you change them on your local machine. So, you don't need to rebuild your container to see your files.
+To see your site live, just open a browser and visit project.docker.local. That's exactly what you find at folder htdocs and it's automatically updated when you change them on your local machine. So, you don't need to rebuild your container to see your files.
 Don't forget that the live folder is htdocs. Project folder is only local.
 
 ### Seeing logs
@@ -55,7 +55,7 @@ To connect to a DB from another container, like from a framework running on php 
 
 ### Using PHPMyAdmin
 
-This project is shipped with a PHPMyAdmin instance. It is accessible via 8084 port. So, just navigate to `project.docker.dev:8084` and use same credentials informed at docker-compose.yml file.
+This project is shipped with a PHPMyAdmin instance. It is accessible via 8084 port. So, just navigate to `project.docker.local:8084` and use same credentials informed at docker-compose.yml file.
 
 ## Contribution
 

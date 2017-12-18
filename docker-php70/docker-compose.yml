@@ -23,7 +23,7 @@ phpfpm:
   volumes_from:
     - project
   extra_hosts:
-    - project.docker.dev:192.168.0.100
+    - project.docker.local:192.168.0.100
 
 project:
   image: alpine:latest
