@@ -6,13 +6,11 @@ RUN apt-get update && apt-get install -y \
         libfreetype6-dev \
         libjpeg62-turbo-dev \
         libmcrypt-dev \
-        libpng12-dev \
+        libpng-dev \
         apt-utils \
         libxml2-dev \
         zlib1g-dev \
         zip \
-        php-http \
-        php5-dev \
         libcurl3 \
         libpcre3-dev \
         libcurl4-openssl-dev \
